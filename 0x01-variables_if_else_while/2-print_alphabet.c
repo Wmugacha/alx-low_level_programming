@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	char ch;
+	char abz[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 0; i < 26; i++)
 	{
-		printf("%c", ch);
+		putchar(abz[i]);
 	}
-
+	putchar('\n');
 	return (0);
 }
