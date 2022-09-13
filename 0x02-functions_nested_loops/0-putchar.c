@@ -1,4 +1,4 @@
-#include "alx.h"
+#include "main.h"
 
 /**
  * main - Entry pint (this program prints out _putchar)
