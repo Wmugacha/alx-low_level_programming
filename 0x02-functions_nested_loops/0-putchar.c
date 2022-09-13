@@ -1,12 +1,10 @@
 #include "alx.h"
 
 /**
+ * main - Entry pint (this program prints out _putchar)
  *
- * main - this program prints out _putchar
- *
- * Return 0 (success)
- *
- **/
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
