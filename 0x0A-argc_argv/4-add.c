@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main - funtion of a program that gets the sum of numbers.
@@ -17,13 +16,13 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
-			if (!isdigit(argv[i][j]))
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
-			sum += atoi(argv[i]);
 		}
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 
