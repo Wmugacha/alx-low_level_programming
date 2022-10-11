@@ -8,4 +8,4 @@
 
 #define ABS(x) ((x < 0) ? (-x) : (x))
 
-#endif
+#endif /*_ABS_H_*/
