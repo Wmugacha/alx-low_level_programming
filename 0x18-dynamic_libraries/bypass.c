@@ -7,16 +7,16 @@ int rand()
 
 	ct++;
 	if (ct == 0)
-		return 8;
+		return 9;
 	if (ct == 1)
 		return 8;
 	if (ct == 2)
-		return 7;
+		return 10;
 	if (ct == 3)
-		return 9;
+		return 24;
 	if (ct == 4)
-		return 23;
+		return 75;
 	if (ct == 5)
-		return 74;
+		return 9;
 	return ct * ct % 30000;
 }
